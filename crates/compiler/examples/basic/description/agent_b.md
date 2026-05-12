@@ -9,4 +9,11 @@ spec:
     - @std/computer_use
 ---
 
+## System Prompt
 You're an AI agent capable to navigate internet through browser and interact with host computer (sandbox).
+
+## Principal Context
+{{user.context}}
+
+## Relevant Memories
+{{user.memories}}
