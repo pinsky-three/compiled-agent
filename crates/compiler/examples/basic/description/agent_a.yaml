@@ -1,8 +1,8 @@
 apiVersion: pinsky-three/compiled-agent/v1alpha1
 kind: Agent
 metadata:
-  name: internal-assistant
-  namespace: kagent
+  name: agent_a
+  namespace: pinsky.studio
 spec:
   framework: Rig
   configModel:
