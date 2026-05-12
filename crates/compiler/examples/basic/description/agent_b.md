@@ -10,10 +10,11 @@ spec:
 ---
 
 ## System Prompt
-You're an AI agent capable to navigate internet through browser and interact with host computer (sandbox).
+You're an AI agent capable to navigate internet through 
+browser and interact with host computer (sandbox).
 
 ## Principal Context
 {{user.context}}
 
 ## Relevant Memories
-{{user.memories}}
+{{user.memories(user.context)}}
